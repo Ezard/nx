@@ -359,7 +359,8 @@ describe('nest libraries', function () {
     const jestConfigContent = readFile(`libs/${nestlib}/jest.config.ts`);
 
     expect(stripIndents`${jestConfigContent}`).toEqual(
-      stripIndents`module.exports = {
+      stripIndents`/* eslint-disable */
+              module.exports = {
                 displayName: '${nestlib}',
                 preset: '../../jest.preset.ts',
                 globals: {

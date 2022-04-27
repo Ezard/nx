@@ -4,7 +4,10 @@ import {
   readProjectConfiguration,
   Tree,
 } from '@nrwl/devkit';
-import { findRootJestPreset } from '../../../utils/config/find-root-jest-files';
+import {
+  findRootJestConfig,
+  findRootJestPreset,
+} from '../../../utils/config/find-root-jest-files';
 import { join } from 'path';
 import { JestProjectSchema } from '../schema';
 

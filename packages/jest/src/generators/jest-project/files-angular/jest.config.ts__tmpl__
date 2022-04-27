@@ -1,3 +1,4 @@
+/* eslint-disable */
 module.exports = {
   displayName: '<%= project %>',
   preset: '<%= offsetFromRoot %>jest.preset.ts',
