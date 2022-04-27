@@ -39,3 +39,20 @@ module.exports = {
 };
 "
 `;
+
+exports[`Jest Migration (v14.0.0) should update the excludes of next js apps using the project parser settings 1`] = `
+Object {
+  "files": Array [
+    "*.ts",
+    "*.tsx",
+    "*.js",
+    "*.jsx",
+  ],
+  "parserOptions": Object {
+    "project": Array [
+      "libs/lib-one/tsconfig.*?.json",
+    ],
+  },
+  "rules": Object {},
+}
+`;
